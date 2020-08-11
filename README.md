@@ -9,7 +9,7 @@ npm install @dnvr/async-maps
 
 ## How it works
 
-Async Maps work similar to JavaScript Maps and is infact based on it.
+Async Maps work similar to JavaScript Maps and is in fact based on it.
 
 It is a bit more restricive than regular Maps in that it offers no options to check for keys or delete or clear the Map. A value can only be set once for a given key and subsequent uses of the `set` method would be ineffective.
 
