@@ -1,0 +1,23 @@
+{
+  "name": "@dnvr/async-maps",
+  "version": "1.0.0",
+  "description": "An async version of JavaScript Maps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DNVR/async-maps.git"
+  },
+  "author": "Denver Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DNVR/async-maps/issues"
+  },
+  "homepage": "https://github.com/DNVR/async-maps#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
