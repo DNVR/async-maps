@@ -12,7 +12,7 @@
     "url": "git+https://github.com/DNVR/async-maps.git"
   },
   "author": "Denver Dias",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DNVR/async-maps/issues"
   },
