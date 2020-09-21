@@ -4,6 +4,9 @@
   "description": "An async version of JavaScript Maps.",
   "browser": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:clean": "npx rimraf dist",
     "build:construct": "npx tsc -p .",
