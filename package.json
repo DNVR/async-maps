@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p ."
+    "build:clean": "npx rimraf dist",
+    "build:construct": "npx tsc -p .",
+    "build": "npm run build:clean && npm run build:construct"
   },
   "repository": {
     "type": "git",
