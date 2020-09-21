@@ -31,7 +31,6 @@ class AsyncMap<K = any, V = any> {
 
       this[ key2promise ].set( key, promise )
 
-      // @ts-expect-error
       this[ promise2resolver ].set( promise, resolve )
 
       return promise
@@ -39,10 +38,8 @@ class AsyncMap<K = any, V = any> {
   }
 
   public set ( key: K, value: V ) {
-    this[ promise2resolver ].get( this.get( key ) )
+    this[ promise2resolver ].get( this.get( key ) )( value )
   }
 }
 
 export default AsyncMap
-
-let k = new AsyncMap
