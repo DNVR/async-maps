@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DNVR/async-maps#readme",
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
   }
 }
