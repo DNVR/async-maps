@@ -1,6 +1,6 @@
 {
   "name": "@dnvr/async-maps",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An async version of JavaScript Maps.",
   "browser": "dist/index.js",
   "types": "dist/index.d.ts",
